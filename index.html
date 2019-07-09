@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+    <title>Calculator</title>
+</head>
+<body class= "mw-100 bg-grey">
+    <h1 class=" center tc avenir mt5"> Welcome to my calculator </h1>
+  <div class="calculator avenir f4">
+      <!-- first row -->
+    <div class='center tc mt5 first-row'>
+        <button class="clear-entry bg-light-purple white" onclick= 'clearNums()' id="clear"
+            type="button">
+            C
+        </button>
+        <input class="output result bg-light-purple white mb0 tl" id="input"
+            type="text">
+        </input>
+       
+    </div>
+    <!-- second row -->
+    <div class='center tc second-row'>
+        <button class="button bg-light-purple white" value="7" id="seven"
+            type="button">
+            7
+        </button>
+        <button class="button left bg-light-purple white" value="8" id="eight"
+            type="button">
+            8
+        </button>
+        <button class="button left bg-light-purple white" value="9" id="nine"
+        type="button">
+            9
+        </button>
+        <button class="button2 left bg-light-purple white" value="/" id="division"
+        type="button">
+        &divide;
+        </button>
+    </div>
+    <!-- third row -->
+    <div class='center tc third-row'>
+        <button class="button bg-light-purple white" value="4" id="four"
+            type="button">
+            4
+        </button>
+        <button class="button left bg-light-purple white" value="5" id="five"
+            type="button">
+            5
+        </button>
+        <button class="button left bg-light-purple white" value="6" id="six"
+        type="button">
+            6
+        </button>
+        <button class="button2 left bg-light-purple white b" value= "*" id="multiply"
+        type="button">
+            &#215;
+        </button>
+    </div>
+    <!-- fourth row -->
+    <div class='center tc fourth-row'>
+        <button class="button bg-light-purple white" value="1" id="one"
+            type="button">
+                1
+        </button>
+        <button class="button left bg-light-purple white" value="2" id="two"
+            type="button">
+                2
+        </button>
+        <button class="button left bg-light-purple white" value="3" id="three"
+        type="button">
+                3
+        </button>
+        <button class="button2 left bg-light-purple white" value="-" id="minus"
+        type="button">
+            &minus;
+        </button>
+    </div>
+    <!-- fifth row -->
+    <div class='center tc fifth-row white-90 b'>
+        <button class="button bg-light-purple white-90" value="0" id="zero"
+            type="button">
+             0
+        </button>
+        <button class="button2 left bg-light-purple white-90" value="." id="dot"
+            type="button">
+            &sdot;
+        </button>
+        <button class="button2 left bg-light-purple white-90" value="=" id="equal"
+        type="button">
+            &equals;
+        </button>
+        <button class="button2 left bg-light-purple white-90" value="+" id="plus"
+        type="button">
+            &plus;
+        </button>
+    </div>
+</div>
+</body> 
+</html>

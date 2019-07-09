@@ -1,0 +1,18 @@
+.button, .clear-entry, .button2{
+    width: 100px;
+    height: 100px;
+    margin-top: 2px;
+    border: solid 1px white;
+    
+}
+
+.result{
+    width: 305px;
+    margin-left: -2px;
+    height: 99px;
+}
+
+
+.left{
+    margin-left: -2px;
+}
