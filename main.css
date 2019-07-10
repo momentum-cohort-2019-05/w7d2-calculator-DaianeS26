@@ -16,3 +16,12 @@
 .left{
     margin-left: -2px;
 }
+
+body{
+    background-image: url("cool-background.png");
+
+}
+
+.header{
+    font-family: 'Kalam', cursive;
+}
